@@ -16,6 +16,9 @@ System.out.println("64GB");
 private void osName() {
 System.out.println("andriod 10");
 }
+private void BrowserVersion() {
+System.out.println("99.045.23.89");
+}
 public static void main(String[]args) {
 	PhoneInfo mobile=new PhoneInfo();
 	mobile.phoneName();
@@ -23,5 +26,6 @@ public static void main(String[]args) {
 	mobile.camera();
 	mobile.storage();
 	mobile.osName();
+	mobile.BrowserVersion();
 }
 }
